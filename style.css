@@ -1,5 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Dosis', sans-serif;
+	color: #555;
+}
+
+#site {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+#site_box {
+	width: 650px;
+	height: 400px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#header {
+	height: 100px;
+	width: 100%;
+	background: #ffffff;
+	border-bottom: 1px solid #AAA;
+	display: flex;
+}
+
+#header section:first-child {
+	width: 50%;
+	font-size: 1.5rem;
+}
+
+#header section:last-child {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#content {
+	min-height: 500px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.appbox {
+	width: 400px;
+	height: 500px;
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	transform: all 1s ease;
+}
+
+.appbox:hover {
+	opacity: 0.9;
+}
+
+.appbox img {
+	width: 320px;
+	height: 320px;
+	margin-top: 40px;
+}
+
+.appbox section {
+	margin-top: 40px;
 }
